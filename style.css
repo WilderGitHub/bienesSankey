@@ -1,0 +1,29 @@
+body {
+  padding: 10px;
+  min-width: 800px;
+  max-width: 1100px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+h2,
+h3 {
+  text-align: center;
+}
+#chart {
+  height: 500px;
+  font: 3vm;
+}
+.node rect {
+  fill-opacity: 0.9;
+  shape-rendering: crispEdges;
+  stroke-width: 0;
+}
+/* .node text {
+   text-shadow: 0 2px 0 #fff; 
+} */
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 0.3;
+}
