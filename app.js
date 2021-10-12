@@ -11,8 +11,8 @@
   
   'fallback': '#2a4d69', //ruju  5
   
-  'Exportaciones': '#f37736', //azul  0
-  'Importaciones': '#009688', //verde  1
+  'Capital': '#f37736', //azul  0
+  'Deuda': '#009688', //verde  1
   'gce': '#3b5998' //morado  4
 }; 
 

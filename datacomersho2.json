@@ -2,12 +2,12 @@
     "nodes" : [
       {
         "id": "final_score",
-        "name": "Total",
+        "name": "Total Financiamiento",
         "monto": 9301
       },
       {
-        "id": "Exportaciones",
-        "name": "Exportaciones",
+        "id": "Capital",
+        "name": "Capital",
         "monto": 4756
       },
       {
@@ -81,8 +81,8 @@
         "monto": 1135
       },
       {
-        "id": "Importaciones",
-        "name": "Importaciones",
+        "id": "Deuda",
+        "name": "Deuda",
         "monto": 4545
       },
       {
@@ -189,6 +189,11 @@
       },
       {
         "source": 1,
+        "target": 13,
+        "value": 1000
+      },
+      {
+        "source": 1,
         "target": 4,
         "value": 666
       },
@@ -231,6 +236,11 @@
         "source": 1,
         "target": 12,
         "value": 71
+      },
+      {
+        "source": 16,
+        "target": 2,
+        "value": 1000
       },
       {
         "source": 16,
