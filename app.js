@@ -16,7 +16,7 @@
   'gce': '#3b5998' //morado  4
 }; 
 
-d3.json("datacomersho2.json", function (error, json) {
+d3.json("datacomersho.json", function (error, json) {
   let chart = d3.select("#chart").append("svg").chart("Sankey.Path");
   chart
     .name(label)
@@ -27,7 +27,7 @@ d3.json("datacomersho2.json", function (error, json) {
       return color(link.source, 4) || color(link.target, 1) || colors.fallback;
     })
     .nodeWidth(50)
-    .nodePadding(4)
+    .nodePadding(5)
     .spread(true)
     .iterations(0)
     .draw(json);

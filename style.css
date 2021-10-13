@@ -10,6 +10,10 @@ h2,
 h3 {
   text-align: center;
 }
+h4 {
+  text-align: right;
+  word-spacing: 230px;
+}
 #chart {
   height: 500px;
   font: 3vm;
